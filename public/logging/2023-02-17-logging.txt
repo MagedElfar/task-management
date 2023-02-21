@@ -1,0 +1,73 @@
+
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 400 - 50.87ms 122 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["status must be one of the following values: DONE, OPEN, IN_PROGRESS"],"error":"Bad Request"}
+endDate: Fri Feb 17 2023 19:41:38 GMT+0300 (Arabian Standard Time) 
+exit: {"statusCode":400,"message":["status must be one of the following values: DONE, OPEN, IN_PROGRESS"],"error":"Bad Request"}
+endDate: Fri Feb 17 2023 19:43:01 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 400 - 19.88ms 122 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["status must be one of the following values: DONE, OPEN, IN_PROGRESS"],"error":"Bad Request"}
+endDate: Fri Feb 17 2023 20:43:19 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 400 - 51.71ms 122 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2,"user":{"id":2,"username":"maged","email":"maged.1992.me@gmail.com"}}],"count":1}
+endDate: Fri Feb 17 2023 20:44:40 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 200 - 82.32ms 302 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"query":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`username` AS `user_username`, `user`.`email` AS `user_email`, `user`.`id` AS `user_id`, user.idd FROM `tasks` `task` LEFT JOIN `users` `user` ON `user`.`id`=`task`.`userId` WHERE `task`.`status` = ? OR `task`.`userId` = ? LIMIT 10","parameters":["OPEN","2"],"driverError":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'user.idd' in 'field list'","sql":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`use
+endDate: Fri Feb 17 2023 20:45:33 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 62.13ms 1895 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"query":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`username` AS `user_username`, `user`.`email` AS `user_email`, `user`.`id` AS `user_id`, user.idd FROM `tasks` `task` LEFT JOIN `users` `user` ON `user`.`id`=`task`.`userId` WHERE `task`.`status` = ? OR `task`.`userId` = ? LIMIT 10","parameters":["OPEN","2"],"driverError":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'user.idd' in 'field list'","sql":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`use
+endDate: Fri Feb 17 2023 20:47:12 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 18ms 1895 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"query":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`username` AS `user_username`, `user`.`email` AS `user_email`, `user`.`id` AS `user_id`, user.idd FROM `tasks` `task` LEFT JOIN `users` `user` ON `user`.`id`=`task`.`userId` WHERE `task`.`status` = ? OR `task`.`userId` = ? LIMIT 10","parameters":["OPEN","2"],"driverError":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'user.idd' in 'field list'","sql":"SELECT `task`.`id` AS `task_id`, `task`.`uuid` AS `task_uuid`, `task`.`createdAt` AS `task_createdAt`, `task`.`updatedAt` AS `task_updatedAt`, `task`.`title` AS `task_title`, `task`.`description` AS `task_description`, `task`.`status` AS `task_status`, `task`.`userId` AS `task_userId`, `user`.`use
+endDate: Fri Feb 17 2023 20:50:14 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 197.42ms 1895 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal Server Error"}
+endDate: Fri Feb 17 2023 20:51:56 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 138.22ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal Server Error"}
+endDate: Fri Feb 17 2023 20:52:24 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 54.73ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal Server Error"}
+endDate: Fri Feb 17 2023 20:53:08 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 147.48ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Unknown column 'user.idd' in 'field list'\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)","error":"Internal Server Error"}
+endDate: Fri Feb 17 2023 20:53:40 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 115.41ms 992 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at TasksService.findAll (D:\\mine\\task-management\\src\\tasks\\tasks.service.ts:29:31)\n    at TasksController.findAll (D:\\mine\\task-management\\src\\tasks\\tasks.controller.ts:18:39)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:38:29\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","error":"Internal Server Error"}
+endDate: Fri Feb 17 2023 20:55:53 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 500 - 78.92ms 705 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------

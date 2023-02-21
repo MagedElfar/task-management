@@ -1,0 +1,426 @@
+
+exit: {"statusCode":400,"message":["gender must be one of the following values: female, male"],"error":"Bad Request"}
+endDate: Sat Feb 18 2023 15:23:34 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+POST /api/profile 400 - 99.2ms 111 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /api/profile","error":"Not Found"}
+endDate: Sat Feb 18 2023 15:24:03 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/profile 404 - 33.41ms 75 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged92
+userId: 3
+POST /api/profiles 201 - 104.01ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Duplicate entry '3' for key 'REL_315ecd98bd1a42dcf2ec4e2e98'\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)","error":"Internal Ser
+endDate: Sat Feb 18 2023 15:25:29 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 3
+POST /api/profiles 500 - 303.88ms 1011 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"firstName":"maged","lastName":"elfar","gender":"male","phone":"00201115138688","userId":2,"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-16T12:13:27.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"id":3,"uuid":"3ec0666a-b93a-45be-8538-f911b8d3dfbf","createdAt":"2023-02-18T12:37:55.232Z","updatedAt":"2023-02-18T12:37:55.232Z"}
+endDate: Sat Feb 18 2023 15:37:55 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 201 - 109.8ms 416 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Duplicate entry '2' for key 'REL_315ecd98bd1a42dcf2ec4e2e98'\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)","error":"Internal Ser
+endDate: Sat Feb 18 2023 15:38:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 210.32ms 1011 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"InternalServerErrorException: NotAcceptableException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:32)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:25:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\min
+endDate: Sat Feb 18 2023 15:38:51 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 129.19ms 1295 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"InternalServerErrorException: NotAcceptableException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:32)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:25:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\min
+endDate: Sat Feb 18 2023 15:40:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 110.51ms 1295 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"NotAcceptableException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:32)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:9)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","error":"Internal Server Error"}
+endDate: Sat Feb 18 2023 15:40:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 95.8ms 689 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"InternalServerErrorException: BadRequestException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:32)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:25:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\
+endDate: Sat Feb 18 2023 15:41:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 109.64ms 1292 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"InternalServerErrorException: NotFoundException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:32)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:25:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\ta
+endDate: Sat Feb 18 2023 15:42:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 127.47ms 1290 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"NotFoundException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:28)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","error":"Internal Server Error"}
+endDate: Sat Feb 18 2023 15:43:38 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 120.74ms 685 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"profile for this user exists","error":"Not Found"}
+endDate: Sat Feb 18 2023 15:44:13 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 404 - 95.5ms 79 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"NotFoundException: profile for this user exists\n    at ProfileService.findOne (D:\\mine\\task-management\\src\\profile\\profile.service.ts:20:28)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ProfileService.create (D:\\mine\\task-management\\src\\profile\\profile.service.ts:33:13)\n    at ProfileController.create (D:\\mine\\task-management\\src\\profile\\profile.controller.ts:12:16)\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at D:\\mine\\task-management\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17","error":"Internal Server Error"}
+endDate: Sat Feb 18 2023 15:44:50 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 118.03ms 685 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"profile for this user exists","error":"Not Found"}
+endDate: Sat Feb 18 2023 15:45:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 500 - 109.46ms 79 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"profile for this user exists","error":"Not Found"}
+endDate: Sat Feb 18 2023 15:50:06 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 404 - 129.36ms 79 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sat Feb 18 2023 15:54:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/profiles 406 - 144.54ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"username":"maged92","email":"maged.1992@gmail.com","id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-18T12:54:39.512Z"},"tokens":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjc2NzI0ODc5LCJleHAiOjE3MDgyODI0Nzl9.lJW3YcOehLY6QWbvY43y0GsJCSGmV3ZmlnvuvzLulrw","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjc2NzI0ODc5LCJleHAiOjE2NzY3MzkyNzl9.YmHQI8pTjs9TeJ_1mGrHEWveksDdR4wOM3Q14aNmiqM"}}
+endDate: Sat Feb 18 2023 15:54:39 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/signup 201 - 185.85ms 513 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":"user email is already exist","error":"Bad Request"}
+endDate: Sat Feb 18 2023 15:54:41 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/signup 400 - 43.29ms 80 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":"user email is already exist","error":"Bad Request"}
+endDate: Sat Feb 18 2023 15:54:54 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/signup 400 - 30.97ms 80 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":401,"message":"Invalid Email or Password","error":"Unauthorized"}
+endDate: Sat Feb 18 2023 15:55:26 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/login 401 - 119.53ms 79 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-18T12:54:39.512Z","username":"maged92","email":"maged.1992@gmail.com"},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjc2NzI0OTQwLCJleHAiOjE3MDgyODI1NDB9.xnE_UIu-a39x6R5brwKopmG7BV1BPBn6LA67qmXiV00","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjc2NzI0OTQwLCJleHAiOjE2NzY3MzkzNDB9.ABe_9G_0JKqm51cbYQ3o5nOhWpyyWSUg8ShtbqMV5mk"}
+endDate: Sat Feb 18 2023 15:55:40 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 4
+POST /api/login 200 - 113.15ms 502 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /","error":"Not Found"}
+endDate: Sat Feb 18 2023 16:39:57 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 5.94ms 63 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /requested.html","error":"Not Found"}
+endDate: Sat Feb 18 2023 16:40:24 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 4.05ms 77 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["gender must be one of the following values: female, male"],"error":"Bad Request"}
+endDate: Sat Feb 18 2023 17:06:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 400 - 112.67ms 111 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["gender must be one of the following values: female, male"],"error":"Bad Request"}
+endDate: Sat Feb 18 2023 17:06:51 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 400 - 28.46ms 111 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-16T12:13:27.000Z","username":"maged","email":"maged.1992.me@gmail.com","gender":"male"}
+endDate: Sat Feb 18 2023 17:06:59 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 37.5ms 201 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"username should be uniq","error":"Not Acceptable"}
+endDate: Sat Feb 18 2023 17:26:17 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 406 - 136.25ms 79 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-16T12:13:27.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:26:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/users 200 - 22.96ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-16T12:13:27.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:27:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 108.1ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-16T12:13:27.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:29:00 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 157.25ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Duplicate entry 'maged' for key 'IDX_fe0bb3f6520ee0469504521e71'\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sat Feb 18 2023 17:30:42 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 500 - 264.29ms 983 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"EntityPropertyNotFoundError: Property \"profile\" was not found in \"User\". Make sure your query is correct.\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3816:23\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at SelectQueryBuilder.applyFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3046:22)\n    at SelectQueryBuilder.setFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:103:14)\n    at EntityManager.findOne (D:\\mine\\task-management\\src\\entity-manager\\EntityManager.ts:1121:14)\n    at Repository.findOne (D:\\mine\\task-management\\src\\repository\\Repository.ts:536:29)\n    at UsersService.findOneById (D:\\mine\\task-management\\src\\users\\users.service.ts:103:52)\n    at AccessTokenStrategy.validate (D:\\mine\\task-management\\src\\auth\\acc
+endDate: Sat Feb 18 2023 17:34:53 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 500 - 182.72ms 1175 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:36:36.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null}
+endDate: Sat Feb 18 2023 17:36:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 205.27ms 200 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"TypeError: Cannot read properties of undefined (reading 'joinColumns')\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:2290:39\n    at Array.map (<anonymous>)\n    at SelectQueryBuilder.createJoinExpression (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:2228:57)\n    at SelectQueryBuilder.getQuery (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:85:21)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3394:50)\n    at SelectQueryBuilder.getRawAndEntities (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:1646:40)\n    at SelectQueryBuilder.getOne (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:1673:36)\n    at EntityManager.findOne (D:\\mine\\task-management\\src\\entity-manager\\EntityManager.ts:1125:14)\n    at Repository.findOne (D:\\mine\\task-management\\src\\reposi
+endDate: Sat Feb 18 2023 17:37:04 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 500 - 144.62ms 1127 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:37:41.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null}
+endDate: Sat Feb 18 2023 17:37:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 197.38ms 200 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"TypeError: Cannot read properties of undefined (reading 'joinColumns')\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:2290:39\n    at Array.map (<anonymous>)\n    at SelectQueryBuilder.createJoinExpression (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:2228:57)\n    at SelectQueryBuilder.getQuery (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:85:21)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3394:50)\n    at SelectQueryBuilder.getRawAndEntities (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:1646:40)\n    at SelectQueryBuilder.getOne (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:1673:36)\n    at EntityManager.findOne (D:\\mine\\task-management\\src\\entity-manager\\EntityManager.ts:1125:14)\n    at Repository.findOne (D:\\mine\\task-management\\src\\reposi
+endDate: Sat Feb 18 2023 17:38:00 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 500 - 197.76ms 1127 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:38:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null}
+endDate: Sat Feb 18 2023 17:38:38 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 181.88ms 200 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"EntityPropertyNotFoundError: Property \"profile\" was not found in \"User\". Make sure your query is correct.\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3816:23\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at SelectQueryBuilder.applyFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3046:22)\n    at SelectQueryBuilder.setFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:103:14)\n    at EntityManager.findOne (D:\\mine\\task-management\\src\\entity-manager\\EntityManager.ts:1121:14)\n    at Repository.findOne (D:\\mine\\task-management\\src\\repository\\Repository.ts:536:29)\n    at UsersService.findOneById (D:\\mine\\task-management\\src\\users\\users.service.ts:103:52)\n    at AccessTokenStrategy.validate (D:\\mine\\task-management\\src\\auth\\acc
+endDate: Sat Feb 18 2023 17:43:41 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 500 - 136.16ms 1175 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":3,"uuid":"3ec0666a-b93a-45be-8538-f911b8d3dfbf","createdAt":"2023-02-18T12:37:55.232Z","updatedAt":"2023-02-18T14:36:36.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null,"firstName":"maged","lastName":"elfar","gender":"male","phone":"00201115138688","userId":2}
+endDate: Sat Feb 18 2023 17:44:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 131.22ms 291 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:38:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:48:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/users 200 - 87.68ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:38:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:48:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 71.05ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:38:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 17:53:29 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 148.26ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T14:38:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 18:03:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 51.86ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"EntityPropertyNotFoundError: Property \"task\" was not found in \"User\". Make sure your query is correct.\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3816:23\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at SelectQueryBuilder.applyFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3046:22)\n    at SelectQueryBuilder.setFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:103:14)\n    at EntityManager.findOne (D:\\mine\\task-management\\src\\entity-manager\\EntityManager.ts:1121:14)\n    at Repository.findOne (D:\\mine\\task-management\\src\\repository\\Repository.ts:536:29)\n    at UsersService.findOneById (D:\\mine\\task-management\\src\\users\\users.service.ts:103:52)\n    at AccessTokenStrategy.validate (D:\\mine\\task-management\\src\\auth\\accses
+endDate: Sat Feb 18 2023 18:06:19 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 500 - 157.78ms 1172 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:06:51.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null,"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]}
+endDate: Sat Feb 18 2023 18:06:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 209.92ms 422 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":null,"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]}
+endDate: Sat Feb 18 2023 18:07:38 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 104.43ms 422 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"}
+endDate: Sat Feb 18 2023 18:07:47 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/users 200 - 34.35ms 185 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2},"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]}
+endDate: Sat Feb 18 2023 18:08:40 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 153.22ms 621 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2},"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]}
+endDate: Sat Feb 18 2023 18:09:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 295.41ms 621 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /","error":"Not Found"}
+endDate: Sat Feb 18 2023 19:04:30 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 12.2ms 63 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /requested.html","error":"Not Found"}
+endDate: Sat Feb 18 2023 19:04:57 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 6.28ms 77 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot PUT /api/users/photo","error":"Not Found"}
+endDate: Sat Feb 18 2023 19:30:03 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users/photo 404 - 26.67ms 78 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 84.33ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 28.65ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 35.26ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 93ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 101.98ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 101.8ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 178.92ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 142.1ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 41.3ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 105.61ms 170 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot PUT /api/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:00:55 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 11.97ms 201 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:01:56 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 5.82ms 198 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:02:12 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 24.69ms 205 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:02:21 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 8.06ms 210 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:03:15 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 36.45ms 210 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /users/photo","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:03:23 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /users/photo 404 - 9.01ms 75 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /api/dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:03:48 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/dist/public/avatar/47692dc7-9cfb-4f23-b054-58d896f166fc-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 11.7ms 214 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 106.59ms 135 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /uploads/11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:04:44 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /uploads/11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 7.8ms 198 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /uploads/11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:04:56 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /uploads/11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 5.32ms 198 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:05:05 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 9.76ms 190 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 20:07:34 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 6.98ms 190 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+GET /api/users/11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 200 - 85.41ms 185325 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /","error":"Not Found"}
+endDate: Sat Feb 18 2023 22:20:40 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 27.07ms 63 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /requested.html","error":"Not Found"}
+endDate: Sat Feb 18 2023 22:21:11 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 41.67ms 77 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","error":"Not Found"}
+endDate: Sat Feb 18 2023 22:31:28 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 404 - 39.08ms 190 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 200 - 29.52ms 185325 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET /11341d1d-8dd4-4cc8-9e10-2448d1a5674a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg 200 - 24.75ms 185325 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------

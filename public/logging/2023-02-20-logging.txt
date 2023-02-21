@@ -1,0 +1,31 @@
+
+exit: {"statusCode":400,"message":["projectName should not be empty"],"error":"Bad Request"}
+endDate: Mon Feb 20 2023 22:19:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 400 - 47.79ms 86 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":2,"uuid":"4ec68189-3715-4713-8ab4-5917d03cb036","createdAt":"2023-02-20T20:10:15.773Z","updatedAt":"2023-02-20T20:10:15.773Z"}
+endDate: Mon Feb 20 2023 23:10:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 195.97ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":3,"uuid":"97069f84-5b28-474d-9d07-1a7d8ee5b76c","createdAt":"2023-02-20T20:15:01.582Z","updatedAt":"2023-02-20T20:15:01.582Z"}
+endDate: Mon Feb 20 2023 23:15:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 836.56ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":4,"uuid":"808d5cda-c2e4-44a3-9988-6c53d7ca4c2c","createdAt":"2023-02-20T20:17:01.745Z","updatedAt":"2023-02-20T20:17:01.745Z"}
+endDate: Mon Feb 20 2023 23:17:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 188.12ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":5,"uuid":"b79cae39-6833-44f2-85b2-300dfcb2e31a","createdAt":"2023-02-20T20:18:58.332Z","updatedAt":"2023-02-20T20:18:58.332Z"}
+endDate: Mon Feb 20 2023 23:18:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 569.01ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------

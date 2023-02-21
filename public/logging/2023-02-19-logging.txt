@@ -1,0 +1,590 @@
+
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2},"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]}
+endDate: Sun Feb 19 2023 10:47:49 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/users 200 - 111.93ms 621 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Sun Feb 19 2023 10:48:20 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 43.35ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+POST /api/users/photo 201 - 72.35ms 142 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"url":"e63d6230-40b6-4f4f-aea5-15bfdcf98d07-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2},"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2}]},"userId":2,"id":1,"uuid":"e4197541-b7a9-4bf4-b6a5-e1ac73f0c7f2","createdAt":"2023-02-19T11:08:32.417Z","updatedAt":"2023-02-19T11:08:32.417Z"}
+endDate: Sun Feb 19 2023 14:08:32 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 129.57ms 908 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"url":"267266c9-9a35-41aa-951c-4886619cae4a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2}},"userId":2,"id":2,"uuid":"0ec13d2d-6de4-40db-b620-42fecd262336","createdAt":"2023-02-19T11:09:56.954Z","updatedAt":"2023-02-19T11:09:56.954Z"}
+endDate: Sun Feb 19 2023 14:09:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 110.15ms 686 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: ENOENT: no such file or directory, unlink 'D:\\mine\\task-management\\dist\\uploads'"}
+endDate: Sun Feb 19 2023 14:12:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 79.14ms 122 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: ENOENT: no such file or directory, unlink 'D:\\mine\\task-management\\uploads\\267266c9-9a35-41aa-951c-4886619cae4a-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'"}
+endDate: Sun Feb 19 2023 14:13:42 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 75.93ms 245 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`users_photos`, CONSTRAINT `FK_7754692648dc48f4a302cdb43e6` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/rea
+endDate: Sun Feb 19 2023 14:14:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 157.19ms 1148 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"url":"ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2}},"userId":2,"id":4,"uuid":"8ae82eb9-615b-4b11-8f63-f40eeba87a33","createdAt":"2023-02-19T11:19:22.567Z","updatedAt":"2023-02-19T11:19:22.567Z"}
+endDate: Sun Feb 19 2023 14:19:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 43.89ms 686 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`users_photos`, CONSTRAINT `FK_7754692648dc48f4a302cdb43e6` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/rea
+endDate: Sun Feb 19 2023 14:20:29 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 34.8ms 1148 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-18T15:07:38.590Z","firstName":null,"lastName":null,"gender":"male","phone":"","userId":2}}
+endDate: Sun Feb 19 2023 14:20:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 52.7ms 399 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2}}
+endDate: Sun Feb 19 2023 14:21:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/users 200 - 58.91ms 402 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: ENOENT: no such file or directory, unlink 'D:\\mine\\task-management\\uploads\\avatar\\ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'"}
+endDate: Sun Feb 19 2023 14:22:12 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 24.31ms 253 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: ENOENT: no such file or directory, unlink 'D:\\mine\\task-management\\uploads\\avatar\\ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'"}
+endDate: Sun Feb 19 2023 14:23:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 92.83ms 253 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"8ae82eb9-615b-4b11-8f63-f40eeba87a33","createdAt":"2023-02-19T11:19:22.567Z","updatedAt":"2023-02-19T11:19:22.567Z","url":"ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:24:48 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 71.42ms 279 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"8ae82eb9-615b-4b11-8f63-f40eeba87a33","createdAt":"2023-02-19T11:19:22.567Z","updatedAt":"2023-02-19T11:19:22.567Z","url":"ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:25:21 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 32.21ms 279 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"8ae82eb9-615b-4b11-8f63-f40eeba87a33","createdAt":"2023-02-19T11:19:22.567Z","updatedAt":"2023-02-19T11:19:22.567Z","url":"ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:25:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 26.85ms 279 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: ENOENT: no such file or directory, unlink 'D:\\mine\\task-management\\uploads\\avatar\\ed92f7de-9c04-45a2-91f8-a06567faa5a4-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'"}
+endDate: Sun Feb 19 2023 14:27:14 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 83.3ms 253 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2},"url":"f504f270-ded7-4e32-8464-6454d4416484-ai-image-enlarger-1-after-2.jpg"},"userId":2,"id":6,"uuid":"45fe3c63-116b-4314-864d-85465ccdd9b4","createdAt":"2023-02-19T11:28:13.079Z","updatedAt":"2023-02-19T11:28:13.079Z"}
+endDate: Sun Feb 19 2023 14:28:13 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 70.96ms 630 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: EPERM: operation not permitted, unlink 'D:\\mine\\task-management\\uploads\\avatar'"}
+endDate: Sun Feb 19 2023 14:29:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 39.41ms 121 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Error: EPERM: operation not permitted, unlink 'D:\\mine\\task-management\\uploads\\avatar'"}
+endDate: Sun Feb 19 2023 14:31:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 500 - 80.02ms 121 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2}},"url":"1d7b7436-4f53-40bd-a382-a2e139e2c692-ai-image-enlarger-1-after-2.jpg","userId":2,"id":7,"uuid":"092157c6-2abd-4c74-868c-7ca6b7b89605","createdAt":"2023-02-19T11:33:30.791Z","updatedAt":"2023-02-19T11:33:30.791Z"}
+endDate: Sun Feb 19 2023 14:33:30 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 95.17ms 630 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":7,"uuid":"092157c6-2abd-4c74-868c-7ca6b7b89605","createdAt":"2023-02-19T11:33:30.791Z","updatedAt":"2023-02-19T11:34:07.000Z","url":"832729bb-c9d4-45ab-b380-f2846ead333b-phones-over-landlines.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:34:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 60.15ms 214 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":7,"uuid":"092157c6-2abd-4c74-868c-7ca6b7b89605","createdAt":"2023-02-19T11:33:30.791Z","updatedAt":"2023-02-19T11:34:37.000Z","url":"5bda28bb-da18-46b0-b53a-87cc4fb04d50-ai-image-enlarger-1-after-2.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:34:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 38.08ms 220 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":7,"uuid":"092157c6-2abd-4c74-868c-7ca6b7b89605","createdAt":"2023-02-19T11:33:30.791Z","updatedAt":"2023-02-19T11:35:11.000Z","url":"6c2584ec-4853-4cb7-8b7a-12c5a1804d8f-phones-over-landlines.jpg","userId":2}
+endDate: Sun Feb 19 2023 14:35:11 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 35.33ms 214 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2}}
+endDate: Sun Feb 19 2023 14:38:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/users 200 - 24.56ms 402 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-18T12:54:39.512Z","username":"maged92","email":"maged.1992@gmail.com","profile":null}
+endDate: Sun Feb 19 2023 14:38:41 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 4
+GET /api/users 200 - 33.01ms 199 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"user email should be uniq","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:39:54 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 4
+PUT /api/users 406 - 72.66ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`profiles`, CONSTRAINT `FK_315ecd98bd1a42dcf2ec4e2e985` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readabl
+endDate: Sun Feb 19 2023 14:40:09 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 4
+PUT /api/users 500 - 174.08ms 1144 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":6,"uuid":"73794c7f-fa8e-469c-acc6-24b2b7a7ad0a","createdAt":"2023-02-19T11:40:09.347Z","updatedAt":"2023-02-19T11:40:09.347Z","firstName":"maged","lastName":null,"gender":"female","phone":"","userId":4}}
+endDate: Sun Feb 19 2023 14:40:19 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 4
+PUT /api/users 200 - 59.39ms 391 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":6,"uuid":"73794c7f-fa8e-469c-acc6-24b2b7a7ad0a","createdAt":"2023-02-19T11:40:09.347Z","updatedAt":"2023-02-19T11:40:09.347Z","firstName":"maged","lastName":null,"gender":"female","phone":"","userId":4}}
+endDate: Sun Feb 19 2023 14:40:22 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 200 - 32.81ms 391 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`profiles`, CONSTRAINT `FK_315ecd98bd1a42dcf2ec4e2e985` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readabl
+endDate: Sun Feb 19 2023 14:50:44 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 500 - 244.4ms 1144 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":7,"uuid":"ffd3a302-9c63-4b55-ab6c-365ab03a0090","createdAt":"2023-02-19T11:50:44.523Z","updatedAt":"2023-02-19T11:50:44.523Z","firstName":"maged","lastName":null,"gender":"female","phone":"","userId":4}}
+endDate: Sun Feb 19 2023 14:52:30 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 200 - 51.04ms 391 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":7,"uuid":"ffd3a302-9c63-4b55-ab6c-365ab03a0090","createdAt":"2023-02-19T11:50:44.523Z","updatedAt":"2023-02-19T11:50:44.523Z","firstName":"maged","lastName":null,"gender":"female","phone":"","userId":4}}
+endDate: Sun Feb 19 2023 14:52:33 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 200 - 49.67ms 391 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["gender must be one of the following values: female, male"],"error":"Bad Request"}
+endDate: Sun Feb 19 2023 14:53:18 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+POST /api/profiles 400 - 9.64ms 111 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["gender must be one of the following values: female, male"],"error":"Bad Request"}
+endDate: Sun Feb 19 2023 14:53:24 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+POST /api/profiles 400 - 21.38ms 111 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"firstName":"mj","lastName":"mj","gender":"female","phone":"00201115138688","userId":4,"user":{"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com"},"id":8,"uuid":"46647ee0-85d9-45a0-b9b9-281c07611839","createdAt":"2023-02-19T11:53:37.540Z","updatedAt":"2023-02-19T11:53:37.540Z"}
+endDate: Sun Feb 19 2023 14:53:37 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+POST /api/profiles 201 - 25.72ms 399 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:53:49 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+POST /api/profiles 406 - 37.78ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":8,"uuid":"46647ee0-85d9-45a0-b9b9-281c07611839","createdAt":"2023-02-19T11:53:37.540Z","updatedAt":"2023-02-19T11:53:57.000Z","firstName":"maged","lastName":"mj","gender":"female","phone":"00201115138688","userId":4}}
+endDate: Sun Feb 19 2023 14:53:57 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 200 - 56.64ms 405 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":null}
+endDate: Sun Feb 19 2023 14:55:03 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+GET /api/users 200 - 56.11ms 187 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`profiles`, CONSTRAINT `FK_315ecd98bd1a42dcf2ec4e2e985` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readabl
+endDate: Sun Feb 19 2023 14:55:14 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 500 - 203.88ms 1144 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":4,"uuid":"b44ed0ca-ac75-44b0-816a-306d5c831e45","createdAt":"2023-02-18T12:54:39.512Z","updatedAt":"2023-02-19T11:40:19.000Z","username":"mj","email":"maj@gmail.com","profile":{"id":10,"uuid":"509f5baa-f5c8-4832-bce5-34f98e049f4f","createdAt":"2023-02-19T11:57:22.825Z","updatedAt":"2023-02-19T11:57:22.825Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":4}}
+endDate: Sun Feb 19 2023 14:57:22 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 200 - 121.69ms 389 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:57:31 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 406 - 80.93ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:58:56 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 406 - 33.96ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:58:58 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 406 - 78.63ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 14:58:59 GMT+0300 (Arabian Standard Time) 
+user: mj
+userId: 4
+PUT /api/users 406 - 34.94ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"user not found","error":"Not Found"}
+endDate: Sun Feb 19 2023 15:01:31 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 404 - 67.2ms 65 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"username":"maged92","email":"maged.1992@gmail.com","id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:01:56.534Z"},"tokens":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNjc2ODA4MTE2LCJleHAiOjE3MDgzNjU3MTZ9.uPd1dpqh3siGH8EJBB7aLZlqREwYoPiJFzINWh0zkRA","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNjc2ODA4MTE2LCJleHAiOjE2NzY4MjI1MTZ9.LSy78LvxZOQNpQg_aZLbgFmu-TnJXu-rIf34pE-OoAo"}}
+endDate: Sun Feb 19 2023 15:01:56 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/signup 201 - 168.47ms 513 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"user not found","error":"Not Found"}
+endDate: Sun Feb 19 2023 15:02:06 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/users 404 - 14.66ms 65 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Cannot add or update a child row: a foreign key constraint fails (`task_management`.`profiles`, CONSTRAINT `FK_315ecd98bd1a42dcf2ec4e2e985` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readabl
+endDate: Sun Feb 19 2023 15:03:30 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 5
+PUT /api/users 500 - 254.47ms 1144 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":11,"uuid":"88029b9e-d8af-49e8-a50c-f4dd013e03a6","createdAt":"2023-02-19T12:03:30.002Z","updatedAt":"2023-02-19T12:03:30.002Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5}}
+endDate: Sun Feb 19 2023 15:07:09 GMT+0300 (Arabian Standard Time) 
+user: maged92
+userId: 5
+PUT /api/users 200 - 116.47ms 390 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":12,"uuid":"7f1726b5-228a-4b4b-b806-c7b97a0cef18","createdAt":"2023-02-19T12:07:44.108Z","updatedAt":"2023-02-19T12:07:44.108Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5}}
+endDate: Sun Feb 19 2023 15:07:44 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+PUT /api/users 200 - 78.06ms 390 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5}}
+endDate: Sun Feb 19 2023 15:07:58 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+PUT /api/users 200 - 44.78ms 390 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"profile for this user exists","error":"Not Acceptable"}
+endDate: Sun Feb 19 2023 15:08:13 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/profiles 406 - 36.68ms 84 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5}}
+endDate: Sun Feb 19 2023 15:08:27 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/users 200 - 18.67ms 390 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5},"photo":null}
+endDate: Sun Feb 19 2023 15:08:52 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/users 200 - 57.13ms 403 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"url":"96f10ef6-4345-46db-afa1-fb9dd8b79385-ai-image-enlarger-1-after-2.jpg","userId":5,"id":8,"uuid":"4623b9fe-296b-40e8-aad6-fb57a2eb066e","createdAt":"2023-02-19T12:09:17.462Z","updatedAt":"2023-02-19T12:09:17.462Z"}
+endDate: Sun Feb 19 2023 15:09:17 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/users/photo 201 - 67.28ms 401 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"url":"976cecf0-16c0-4fed-bbc5-195b875bad30-ai-image-enlarger-1-after-2.jpg","userId":5,"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:10:07.823Z"}
+endDate: Sun Feb 19 2023 15:10:07 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/users/photo 201 - 35.79ms 401 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:10:40.000Z","url":"a73e62fe-cdbd-409e-b018-f8efaa3f213c-phones-over-landlines.jpg","userId":5}
+endDate: Sun Feb 19 2023 15:10:40 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/users/photo 201 - 56.16ms 214 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:11:10.000Z","url":"82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg","userId":5}
+endDate: Sun Feb 19 2023 15:11:10 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/users/photo 201 - 30.66ms 220 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"url":"ae00f52a-bdb6-454f-bf49-65f8d94ae421-phones-over-landlines.jpg","userId":2,"id":10,"uuid":"71084f3d-5d5d-4b0b-a381-145b14e8a8a2","createdAt":"2023-02-19T12:12:21.161Z","updatedAt":"2023-02-19T12:12:21.161Z"}
+endDate: Sun Feb 19 2023 15:12:21 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 30.94ms 408 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":10,"uuid":"71084f3d-5d5d-4b0b-a381-145b14e8a8a2","createdAt":"2023-02-19T12:12:21.161Z","updatedAt":"2023-02-19T12:12:45.000Z","url":"0d856a14-6d5d-4f1e-afd2-74bdc022ecfe-beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg","userId":2}
+endDate: Sun Feb 19 2023 15:12:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 38.13ms 280 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":10,"uuid":"71084f3d-5d5d-4b0b-a381-145b14e8a8a2","createdAt":"2023-02-19T12:12:21.161Z","updatedAt":"2023-02-19T12:18:44.000Z","url":"5b3f0993-f725-4213-9e68-b211afbf1ee5-phones-over-landlines.jpg","userId":2}
+endDate: Sun Feb 19 2023 15:18:44 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 279ms 215 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"raw":[],"affected":1}
+endDate: Sun Feb 19 2023 15:28:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/users/photo 200 - 33.77ms 23 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"no image found","error":"Not Found"}
+endDate: Sun Feb 19 2023 15:28:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/users/photo 404 - 54.83ms 65 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"url":"3a5b626b-5570-455e-b6f7-e0bcb34ae42e-phones-over-landlines.jpg","userId":2,"id":11,"uuid":"d56ca203-5216-43ca-b1db-d7d9f98b55c5","createdAt":"2023-02-19T12:33:51.574Z","updatedAt":"2023-02-19T12:33:51.574Z"}
+endDate: Sun Feb 19 2023 15:33:51 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 94.32ms 408 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":11,"uuid":"d56ca203-5216-43ca-b1db-d7d9f98b55c5","createdAt":"2023-02-19T12:33:51.574Z","updatedAt":"2023-02-19T12:34:02.000Z","url":"745f0b91-01e9-4640-94dd-57bb12662b2f-phones-over-landlines.jpg","userId":2}
+endDate: Sun Feb 19 2023 15:34:02 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/users/photo 201 - 66.44ms 215 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+DELETE /api/users/photo 200 - 51.79ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 18:18:56 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /api/projects 404 - 28.97ms 119 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","userId":2,"id":1,"uuid":"1fe70dd8-151c-4744-b9a9-5d0b4059f799","createdAt":"2023-02-19T15:20:53.472Z","updatedAt":"2023-02-19T15:20:53.472Z"}
+endDate: Sun Feb 19 2023 18:20:53 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 68.18ms 369 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":1,"uuid":"2a3fe82c-8cb8-422e-bce2-bf4ee11d3c38","createdAt":"2023-02-19T15:31:15.956Z","updatedAt":"2023-02-19T15:31:15.956Z"}
+endDate: Sun Feb 19 2023 18:31:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 101.99ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET / 404 - 22.91ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 19:21:43 GMT+0300 (Arabian Standard Time) 
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 19:22:09 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 17.14ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":2,"uuid":"a8c4b568-7c30-4399-a89f-da40db04ea3e","createdAt":"2023-02-19T16:23:48.007Z","updatedAt":"2023-02-19T16:23:48.007Z"}
+endDate: Sun Feb 19 2023 19:23:48 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 77.71ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":3,"uuid":"9f74b362-26ab-4b79-9345-94282c17f090","createdAt":"2023-02-19T16:29:37.110Z","updatedAt":"2023-02-19T16:29:37.110Z"}
+endDate: Sun Feb 19 2023 19:29:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 75.48ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":4,"uuid":"9b36a3d7-5e04-48fd-9c56-506c6824fb4d","createdAt":"2023-02-19T16:32:31.276Z","updatedAt":"2023-02-19T16:32:31.276Z"}
+endDate: Sun Feb 19 2023 19:32:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 89.4ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:33:02 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 144.68ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:33:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 25.6ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":1,"uuid":"20b22a9a-c65f-4b4c-a704-1f32c3abcd1e","createdAt":"2023-02-19T16:33:37.860Z","updatedAt":"2023-02-19T16:33:37.860Z"}
+endDate: Sun Feb 19 2023 19:33:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 70.14ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":2,"uuid":"d53702c4-e500-41c3-afb2-fa5f1aabcff0","createdAt":"2023-02-19T16:37:01.610Z","updatedAt":"2023-02-19T16:37:01.610Z"}
+endDate: Sun Feb 19 2023 19:37:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 78.79ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":3,"uuid":"1012e7c8-a8c5-4805-9f4d-4faca2e3eada","createdAt":"2023-02-19T16:38:36.706Z","updatedAt":"2023-02-19T16:38:36.706Z"}
+endDate: Sun Feb 19 2023 19:38:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 43.93ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","projectOwner":null,"id":4,"uuid":"32639939-caf8-4c6b-b97e-a1a8dc88b514","createdAt":"2023-02-19T16:54:57.162Z","updatedAt":"2023-02-19T16:54:57.162Z"}
+endDate: Sun Feb 19 2023 19:54:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 84.19ms 378 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:56:00 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 132.01ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:56:06 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 37.46ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:56:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 32.5ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 19:56:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 25.12ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","ownProjects":[]},"projectName":"my first project","projectOwner":null,"id":1,"uuid":"bbaf1390-00e7-45df-8121-8dedbe5b4d5e","createdAt":"2023-02-19T17:00:10.874Z","updatedAt":"2023-02-19T17:00:10.874Z"}
+endDate: Sun Feb 19 2023 20:00:10 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 114.35ms 395 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"QueryFailedError: Table 'task_management.projects' doesn't exist\n    at Query.onResult (D:\\mine\\task-management\\src\\driver\\mysql\\MysqlQueryRunner.ts:222:33)\n    at Query.execute (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\commands\\command.js:36:14)\n    at PoolConnection.handlePacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:456:32)\n    at PacketParser.onPacket (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:85:12)\n    at PacketParser.executeStart (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (D:\\mine\\task-management\\node_modules\\mysql2\\lib\\connection.js:92:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Socket.Readable.push (node:internal/streams/readable:234:10)"}
+endDate: Sun Feb 19 2023 20:03:20 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 500 - 281.99ms 965 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","userId":2,"id":1,"uuid":"20f91465-0105-4bf8-a576-1812ec8bc1cd","createdAt":"2023-02-19T17:04:24.314Z","updatedAt":"2023-02-19T17:04:24.314Z"}
+endDate: Sun Feb 19 2023 20:04:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 107.73ms 369 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","userId":null,"id":2,"uuid":"add74f2a-d292-4cbf-8af2-c4a076eccbf0","createdAt":"2023-02-19T17:05:49.609Z","updatedAt":"2023-02-19T17:05:49.609Z"}
+endDate: Sun Feb 19 2023 20:05:49 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 73.65ms 372 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","ownerId":null,"id":3,"uuid":"f46cdf24-76b0-4332-9160-934263aeb6ca","createdAt":"2023-02-19T17:07:16.469Z","updatedAt":"2023-02-19T17:07:16.469Z"}
+endDate: Sun Feb 19 2023 20:07:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 84.04ms 373 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"my first project","userId":2,"id":1,"uuid":"a616afc5-edd4-4b74-bc0e-7a5a11836bd1","createdAt":"2023-02-19T17:56:57.610Z","updatedAt":"2023-02-19T17:56:57.610Z"}
+endDate: Sun Feb 19 2023 20:56:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 81.67ms 369 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{},"user":{},"userId":null,"id":1,"uuid":"8e78a888-2542-4858-9561-9b56404c8308","createdAt":"2023-02-19T18:13:43.378Z","updatedAt":"2023-02-19T18:13:43.000Z","role":"user"}
+endDate: Sun Feb 19 2023 21:13:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 100.78ms 183 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":1,"uuid":"a616afc5-edd4-4b74-bc0e-7a5a11836bd1","createdAt":"2023-02-19T17:56:57.610Z","updatedAt":"2023-02-19T17:56:57.610Z","projectName":"my first project","userId":2},"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2},"photo":null},"userId":2,"id":2,"uuid":"1692ff83-3424-4aac-ad06-b635ca7039ba","createdAt":"2023-02-19T18:19:57.417Z","updatedAt":"2023-02-19T18:19:57.417Z","role":"user"}
+endDate: Sun Feb 19 2023 21:19:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 107.81ms 767 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":1,"uuid":"a616afc5-edd4-4b74-bc0e-7a5a11836bd1","createdAt":"2023-02-19T17:56:57.610Z","updatedAt":"2023-02-19T17:56:57.610Z","projectName":"my first project","userId":2},"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2},"photo":null},"userId":2,"projectId":1,"id":1,"uuid":"ed3cbe22-ae84-4774-9ed9-7122b919a96a","createdAt":"2023-02-19T18:23:46.245Z","updatedAt":"2023-02-19T18:23:46.245Z","role":"user"}
+endDate: Sun Feb 19 2023 21:23:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 100.46ms 781 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 22:24:49 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2 404 - 58.06ms 119 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 22:24:50 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /favicon.ico 404 - 25.43ms 119 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 22:28:55 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg 404 - 186649.58ms 119 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Sun Feb 19 2023 22:28:55 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /avatar/82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg 200 - 32.9ms 91419 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET /avatar/82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg 200 - 74.38ms 91419 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET /avatar/82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg 304 - 15.42ms undefined - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET /avatar/82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg 304 - 6.1ms undefined - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 ::1
+----------------------------------------------------------------------------

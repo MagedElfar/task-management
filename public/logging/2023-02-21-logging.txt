@@ -1,0 +1,663 @@
+
+exit: {"statusCode":400,"message":["user must be an integer number","user should not be empty"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 11:10:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 400 - 166.72ms 112 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["user must be an integer number"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 11:11:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 400 - 53.57ms 85 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 11:11:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 63.55ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 11:12:50 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 95.53ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 11:13:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 404 - 75.82ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"user not found","error":"Not Found"}
+endDate: Tue Feb 21 2023 11:13:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 404 - 36.77ms 65 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 11:13:54 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 21.85ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":5,"uuid":"b79cae39-6833-44f2-85b2-300dfcb2e31a","createdAt":"2023-02-20T20:18:58.332Z","updatedAt":"2023-02-20T20:18:58.332Z","projectName":"test project","userId":2},"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"userId":5,"projectId":5,"id":4,"uuid":"7d51dbdd-f311-4b44-a420-8e8ec5165b27","createdAt":"2023-02-21T08:14:22.610Z","updatedAt":"2023-02-21T08:14:22.610Z","role":"member"}
+endDate: Tue Feb 21 2023 11:14:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 53.71ms 537 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 11:33:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 94.29ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 12:58:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 97.72ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 12:59:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 244.37ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 13:00:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 83.07ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:01:29 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 49.41ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:03:47 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 14.38ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:05:11 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 13.57ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:06:32 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 55.54ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["project must be an integer number","user must be an integer number"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 13:09:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 400 - 48.3ms 121 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 13:10:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 61.9ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 13:12:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 83.22ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["user must be an integer number"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 13:12:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 400 - 91.37ms 85 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:48:47 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 44.74ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 13:48:55 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 13.28ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:06:53 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 50.65ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:06:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 14.87ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["project must be an integer number"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 14:07:34 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/teams 400 - 23.77ms 88 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:07:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 30.07ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Tue Feb 21 2023 14:12:50 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 500 - 80.07ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 14:13:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 399.79ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 14:13:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 73.25ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:14:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 25.85ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:14:51 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 84.56ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:15:06 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 44.05ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:19:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 82.85ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:20:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 97.98ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:21:00 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 128.01ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":8,"uuid":"4de2b294-2eab-4227-916d-41e17e0fd84e","createdAt":"2023-02-16T20:19:52.547Z","updatedAt":"2023-02-16T20:19:52.547Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2,"user":{"id":2,"username":"maged","email":"maged.1992.me@gmail.com"}}],"count":1}
+endDate: Tue Feb 21 2023 14:21:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 200 - 58.88ms 302 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 14:22:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/5 403 - 133.42ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"title":"test 2","description":"task 2 description","userId":2,"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"id":10,"uuid":"8b1e32a3-4497-4feb-af86-14ab86a4b071","createdAt":"2023-02-21T11:22:13.796Z","updatedAt":"2023-02-21T11:22:13.796Z","status":"OPEN"}
+endDate: Tue Feb 21 2023 14:22:13 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/tasks 201 - 37.06ms 405 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":10,"uuid":"8b1e32a3-4497-4feb-af86-14ab86a4b071","createdAt":"2023-02-21T11:22:13.796Z","updatedAt":"2023-02-21T11:22:13.796Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2,"user":{"id":2,"username":"maged","email":"maged.1992.me@gmail.com"}}
+endDate: Tue Feb 21 2023 14:22:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/10 200 - 20.12ms 281 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:22:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 403 - 28.08ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 14:23:02 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 27.3ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:23:40 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 403 - 14.07ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:24:59 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 403 - 75.48ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:25:52 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 403 - 65.98ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 14:27:22 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 406 - 99.45ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 14:33:27 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 406 - 100.78ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot DELETE /api/teams","error":"Not Found"}
+endDate: Tue Feb 21 2023 14:54:18 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+DELETE /api/teams 404 - 16.67ms 75 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:54:48 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/teams/2 403 - 54.94ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:55:08 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/teams/2 403 - 47.11ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:55:26 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/teams/4 403 - 19.12ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":401,"message":"Unauthorized"}
+endDate: Tue Feb 21 2023 14:55:51 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/teams 401 - 9.63ms 43 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"raw":[],"affected":1}
+endDate: Tue Feb 21 2023 14:56:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/teams/4 200 - 28.76ms 23 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:57:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/teams/4 403 - 88.6ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 14:57:18 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/teams/4 403 - 18.36ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":5,"uuid":"b79cae39-6833-44f2-85b2-300dfcb2e31a","createdAt":"2023-02-20T20:18:58.332Z","updatedAt":"2023-02-20T20:18:58.332Z","projectName":"test project","userId":2},"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"userId":5,"projectId":5,"id":5,"uuid":"9edf69ce-3437-4140-83db-d547dd115ef4","createdAt":"2023-02-21T11:57:24.549Z","updatedAt":"2023-02-21T11:57:24.549Z","role":"member"}
+endDate: Tue Feb 21 2023 14:57:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 69.7ms 537 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["role must be one of the following values: admin, member"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 15:15:50 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/teams 400 - 32.7ms 110 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:16:48 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 73.95ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:21:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 69.4ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["role must be one of the following values: admin, member"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 15:21:44 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/teams/5 400 - 28.81ms 110 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:22:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 76.61ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:25:44 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 82.67ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:26:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 105.74ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:27:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 29.69ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:27:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 86.04ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:28:54 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 114.28ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Tue Feb 21 2023 15:29:00 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 403 - 68.2ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"9edf69ce-3437-4140-83db-d547dd115ef4","createdAt":"2023-02-21T11:57:24.549Z","updatedAt":"2023-02-21T11:57:24.549Z","role":"member","userId":5,"projectId":5}
+endDate: Tue Feb 21 2023 15:30:11 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 200 - 73.77ms 173 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"9edf69ce-3437-4140-83db-d547dd115ef4","createdAt":"2023-02-21T11:57:24.549Z","updatedAt":"2023-02-21T11:57:24.549Z","role":"member","userId":5,"projectId":5}
+endDate: Tue Feb 21 2023 15:32:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 200 - 78.86ms 173 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"9edf69ce-3437-4140-83db-d547dd115ef4","createdAt":"2023-02-21T11:57:24.549Z","updatedAt":"2023-02-21T12:32:53.000Z","role":"admin","userId":5,"projectId":5}
+endDate: Tue Feb 21 2023 15:32:53 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 200 - 112.72ms 172 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"9edf69ce-3437-4140-83db-d547dd115ef4","createdAt":"2023-02-21T11:57:24.549Z","updatedAt":"2023-02-21T12:33:01.000Z","role":"member","userId":5,"projectId":5}
+endDate: Tue Feb 21 2023 15:33:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/teams/5 200 - 44ms 173 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"Validation failed (numeric string is expected)","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:42:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/projects 406 - 50.28ms 102 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot DELETE /api/projects/u","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:43:13 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+DELETE /api/projects/u 404 - 9.79ms 80 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"Validation failed (numeric string is expected)","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:43:35 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+DELETE /api/projects/u 406 - 53.81ms 102 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+DELETE /api/projects/5 200 - 33.39ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:44:06.913Z"}
+endDate: Tue Feb 21 2023 15:44:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 132.71ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot PUT /api/projects","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:49:08 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/projects 404 - 26.36ms 75 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot PUT /api/projects/f","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:49:13 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/projects/f 404 - 8.8ms 77 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot PUT /api/projects/5","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:49:23 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+PUT /api/projects/5 404 - 4.11ms 77 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+PUT /api/projects/5 404 - 155.48ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:50:28 GMT+0300 (Arabian Standard Time) 
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:50:38.389Z"}
+endDate: Tue Feb 21 2023 15:50:38 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 75.22ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:51:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/projects/5 404 - 24.62ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2}
+endDate: Tue Feb 21 2023 15:51:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/projects/6 200 - 39.93ms 176 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2}
+endDate: Tue Feb 21 2023 15:52:23 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/projects/7 200 - 19.7ms 178 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2}
+endDate: Tue Feb 21 2023 15:52:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/projects/7 200 - 13.53ms 178 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:53:03 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 404 - 56.73ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:53:06 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 404 - 33.44ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 15:53:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 404 - 33.08ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"userId":5,"projectId":6,"id":8,"uuid":"37c7f933-33d2-4fea-9a68-fbbbf3f227ce","createdAt":"2023-02-21T12:53:20.794Z","updatedAt":"2023-02-21T12:53:20.794Z","role":"member"}
+endDate: Tue Feb 21 2023 15:53:20 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 38.81ms 541 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 15:53:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 406 - 45.97ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+request with no authorization required
+GET / 404 - 16.72ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Tue Feb 21 2023 17:54:04 GMT+0300 (Arabian Standard Time) 
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Tue Feb 21 2023 17:54:29 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 10.71ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"projectName":"test project","userId":2,"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:55:40.329Z"}
+endDate: Tue Feb 21 2023 17:55:40 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/projects 201 - 46.48ms 365 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}
+endDate: Tue Feb 21 2023 17:56:09 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+PUT /api/projects/8 200 - 31.9ms 177 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"dca122a6-7f30-4e47-a78e-7099c7a5ce07","createdAt":"2023-02-21T12:44:06.997Z","updatedAt":"2023-02-21T12:44:06.997Z","role":"admin","userId":2,"projectId":6},{"id":7,"uuid":"34d6c420-196c-45b5-9a2c-e17d4487e9c4","createdAt":"2023-02-21T12:50:38.426Z","updatedAt":"2023-02-21T12:50:38.426Z","role":"admin","userId":2,"projectId":7},{"id":9,"uuid":"e6934b45-ab62-44bc-a023-1b01c16f6da9","createdAt":"2023-02-21T14:55:40.352Z","updatedAt":"2023-02-21T14:55:40.352Z","role":"admin","userId":2,"projectId":8}]
+endDate: Tue Feb 21 2023 18:10:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 50.98ms 520 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},{"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2},{"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}]
+endDate: Tue Feb 21 2023 18:27:23 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 89.35ms 535 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},{"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2},{"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}]
+endDate: Tue Feb 21 2023 18:37:23 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 59.98ms 535 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},{"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2},{"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}]
+endDate: Tue Feb 21 2023 18:37:50 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 63.68ms 535 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2}]
+endDate: Tue Feb 21 2023 18:38:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 83.3ms 178 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},{"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2},{"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}]
+endDate: Tue Feb 21 2023 18:39:18 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 59.96ms 535 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: []
+endDate: Tue Feb 21 2023 18:39:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 89.07ms 2 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2}]
+endDate: Tue Feb 21 2023 19:02:47 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/projects 200 - 110.8ms 178 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot DELETE /api/projects/leave/6","error":"Not Found"}
+endDate: Tue Feb 21 2023 19:03:05 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+DELETE /api/projects/leave/6 404 - 14.84ms 86 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/projects/leave/6 200 - 105.19ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: []
+endDate: Tue Feb 21 2023 19:03:41 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/projects 200 - 75.54ms 2 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":["projectId must be an integer number"],"error":"Bad Request"}
+endDate: Tue Feb 21 2023 19:16:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/tasks 400 - 89.35ms 90 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 19:27:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/tasks 404 - 210.07ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},{"id":7,"uuid":"bdb5fc94-3024-4bb8-ba58-2af6f8513fbe","createdAt":"2023-02-21T12:50:38.389Z","updatedAt":"2023-02-21T12:52:23.000Z","projectName":"my first project 2","userId":2},{"id":8,"uuid":"3976b729-3303-4720-a63b-9c5c1b038056","createdAt":"2023-02-21T14:55:40.329Z","updatedAt":"2023-02-21T14:56:09.000Z","projectName":"my test project 3","userId":2}]
+endDate: Tue Feb 21 2023 19:27:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/projects 200 - 60.17ms 535 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"title":"test 2","description":"task 2 description","userId":2,"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"project":{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},"id":11,"uuid":"75a169fe-bf90-43c2-a981-af60d1372e13","createdAt":"2023-02-21T16:27:41.423Z","updatedAt":"2023-02-21T16:27:41.423Z","status":"OPEN"}
+endDate: Tue Feb 21 2023 19:27:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/tasks 201 - 145.23ms 592 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"userId":5,"projectId":6,"id":10,"uuid":"caca129b-1896-42b0-8595-c91ad4925861","createdAt":"2023-02-21T16:28:38.670Z","updatedAt":"2023-02-21T16:28:38.670Z","role":"member"}
+endDate: Tue Feb 21 2023 19:28:38 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+POST /api/teams 201 - 72.68ms 542 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":10,"uuid":"8b1e32a3-4497-4feb-af86-14ab86a4b071","createdAt":"2023-02-21T11:22:13.796Z","updatedAt":"2023-02-21T11:22:13.796Z","title":"test 2","description":"task 2 description","status":"OPEN","userId":2,"user":{"id":2,"username":"maged","email":"maged.1992.me@gmail.com"}}
+endDate: Tue Feb 21 2023 19:30:28 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/tasks/10 200 - 22.97ms 281 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: [{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2}]
+endDate: Tue Feb 21 2023 19:30:46 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/projects 200 - 18.05ms 178 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"title":"test 3","description":"task 3 description","userId":5,"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"project":{"id":6,"uuid":"76373a16-6e47-4ca8-a1f2-5f4ae9d6b1aa","createdAt":"2023-02-21T12:44:06.913Z","updatedAt":"2023-02-21T12:51:57.000Z","projectName":"my first project","userId":2},"id":12,"uuid":"bce2a5bf-e0e6-4e39-bc1d-9ba270ef1a81","createdAt":"2023-02-21T16:38:23.169Z","updatedAt":"2023-02-21T16:38:23.169Z","status":"OPEN"}
+endDate: Tue Feb 21 2023 19:38:23 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 201 - 230.4ms 580 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 19:38:35 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 403 - 100.29ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
