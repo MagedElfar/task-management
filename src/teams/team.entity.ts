@@ -37,9 +37,6 @@ export class Team extends AbstractEntity {
     })
     userId: number
 
-    @Column({
-        nullable: true
-
-    })
+    @Column()
     projectId: number
 }

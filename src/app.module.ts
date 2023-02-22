@@ -15,7 +15,7 @@ import { join } from 'path';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { ProjectsModule } from './projects/projects.module';
 import { TeamsModule } from './teams/teams.module';
-import { AssumentsModule } from './assuments/assuments.module';
+import { AssignmentsModule } from './assignments/assignments.module';
 
 
 @Module({
@@ -36,7 +36,7 @@ import { AssumentsModule } from './assuments/assuments.module';
     UsersPhotoModule,
     ProjectsModule,
     TeamsModule,
-    AssumentsModule
+    AssignmentsModule
   ],
   providers: [{
     provide: APP_GUARD,

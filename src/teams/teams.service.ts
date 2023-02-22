@@ -4,7 +4,7 @@ import { UsersService } from './../users/users.service';
 import { TeamDto } from './dto/team.dto';
 import { ForbiddenException, forwardRef, HttpException, Inject, Injectable, Logger, NotAcceptableException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { In, Repository } from 'typeorm';
 import { Team } from './team.entity';
 import { UpdateTeamDto } from './dto/update.team.dto';
 
@@ -117,6 +117,26 @@ export class TeamsService {
             if (!member) throw new ForbiddenException("Forbidden resource");
 
             return member;
+        } catch (error) {
+            this.logger.error(error.stack)
+            throw new HttpException(error?.response || error.stack, error?.status || 500)
+        }
+    }
+
+    async checkIfMembersInSameTeam(projectId: number, users: number[]) {
+        try {
+            const members = await this.teamRepository.createQueryBuilder("t")
+                .where("t.projectId = :projectId", { projectId })
+                .andWhere({ userId: In(users) })
+                .getMany()
+
+            const newArr = [...new Set(users)];
+
+            console.log(members.length, newArr.length)
+
+            if (members.length !== newArr.length) throw new NotAcceptableException("users not in same team");
+
+            return members;
         } catch (error) {
             this.logger.error(error.stack)
             throw new HttpException(error?.response || error.stack, error?.status || 500)

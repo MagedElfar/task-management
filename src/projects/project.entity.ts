@@ -23,7 +23,7 @@ export class Project extends AbstractEntity {
     teams: Team[]
 
     @OneToMany(() => Task, (task) => task.project, {
-        cascade: true
+        cascade: true,
     })
     tasks: Task[]
 

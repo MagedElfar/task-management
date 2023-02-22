@@ -1,4 +1,6 @@
-import { IsInt, IsNotEmpty } from "class-validator";
+import { Transform } from "class-transformer";
+import { IsDate, IsDateString, IsInt, IsNotEmpty, IsOptional, MinDate } from "class-validator";
+
 
 export class CreateTaskDto {
     @IsNotEmpty({
@@ -12,4 +14,15 @@ export class CreateTaskDto {
 
     @IsInt()
     projectId: number
+
+    @IsOptional()
+    @IsInt()
+    parentId: number
+
+    @IsNotEmpty()
+    @Transform(({ value }) => new Date(value))
+    @IsDate()
+    @MinDate(new Date())
+    duo_date: Date
+
 }

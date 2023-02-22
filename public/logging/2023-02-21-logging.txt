@@ -661,3 +661,91 @@ user: mjm
 userId: 5
 POST /api/tasks 403 - 100.29ms 40 - PostmanRuntime/7.31.0 ::1
 ----------------------------------------------------------------------------
+exit: {"assignments_from":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"assignments_to":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5},"photo":{"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:11:10.000Z","url":"82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg","userId":5}},"task":{"id":10,"uuid":"8b1e32a3-4497-4feb-af86-14ab86a4b071","createdAt":"2023-02-21T11:22:13.796Z","updatedAt":"2023-02-21T11:22:13.796Z","title":"test 2","description
+endDate: Tue Feb 21 2023 20:38:58 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 201 - 159.88ms 1251 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Tue Feb 21 2023 20:58:10 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 24.36ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Tue Feb 21 2023 20:58:36 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 12.81ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 21:56:33 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 403 - 115.41ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 21:56:55 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 403 - 54.66ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 21:56:59 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 403 - 32.83ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"projectName":"test project","userId":5,"id":9,"uuid":"1d84a9ee-f0fc-4f60-9e7b-ae54bee9f88c","createdAt":"2023-02-21T18:57:52.874Z","updatedAt":"2023-02-21T18:57:52.874Z"}
+endDate: Tue Feb 21 2023 21:57:52 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/projects 201 - 47.21ms 353 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"project not exists","error":"Not Found"}
+endDate: Tue Feb 21 2023 21:58:22 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 404 - 62.47ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":9,"uuid":"1d84a9ee-f0fc-4f60-9e7b-ae54bee9f88c","createdAt":"2023-02-21T18:57:52.874Z","updatedAt":"2023-02-21T18:57:52.874Z","projectName":"test project","userId":5},"user":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com"},"userId":2,"projectId":9,"id":12,"uuid":"17b3f884-4ba8-4ec6-aae0-ed1532bdbc44","createdAt":"2023-02-21T18:58:32.768Z","updatedAt":"2023-02-21T18:58:32.768Z","role":"member"}
+endDate: Tue Feb 21 2023 21:58:32 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 201 - 56.56ms 550 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Tue Feb 21 2023 21:58:43 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 403 - 20.75ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"title":"test 3","description":"task 3 description","userId":5,"projectId":9,"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"project":{"id":9,"uuid":"1d84a9ee-f0fc-4f60-9e7b-ae54bee9f88c","createdAt":"2023-02-21T18:57:52.874Z","updatedAt":"2023-02-21T18:57:52.874Z","projectName":"test project","userId":5},"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","status":"OPEN"}
+endDate: Tue Feb 21 2023 21:58:50 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/tasks 201 - 26.82ms 590 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":"task 3 description","status":"OPEN","userId":5,"projectId":9,"user":{"id":5,"username":"mjm","email":"maj@gmail.com"}}],"count":1}
+endDate: Tue Feb 21 2023 21:59:18 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 200 - 19.92ms 305 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+POST /api/assignments 201 - 73.27ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+POST /api/assignments 201 - 59.9ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+POST /api/assignments 201 - 56.67ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Tue Feb 21 2023 22:10:52 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 57.13ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------

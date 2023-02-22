@@ -1,3 +1,4 @@
+import { Assignment } from 'src/assignments/assignments.entity';
 import { UsersPhotos } from './../users-photo/users-photo.entity';
 import { Exclude } from 'class-transformer';
 import { AbstractEntity } from 'src/common/entities/abstract.entity';
@@ -37,6 +38,17 @@ export class User extends AbstractEntity {
         cascade: true
     })
     teams: Team[]
+
+    @OneToMany(() => Assignment, (assignment) => assignment.assignmentsTo, {
+        cascade: true
+    })
+    assignmentTo: Assignment[]
+
+
+    @OneToMany(() => Assignment, (assignment) => assignment.assignmentsFrom, {
+        cascade: true
+    })
+    assignmentFrom: Assignment[]
 
 
     @OneToOne(() => Profile, (profile) => profile.user)

@@ -1,0 +1,218 @@
+
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:18:12 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 93.31ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":null,"user":{"id":5,"username":"mjm","email":"maj@gmail.com"}}],"count":1}
+endDate: Wed Feb 22 2023 12:26:13 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/tasks?status=open&search=t&limit=10&page=1&user=2 200 - 56.94ms 376 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":null,"user":{"id":5,"username":"mjm","email":"maj@gmail.com"}}],"count":1}
+endDate: Wed Feb 22 2023 12:26:30 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/tasks 200 - 18.8ms 376 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:28:05 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 46.45ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:29:54 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 25.15ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Wed Feb 22 2023 12:32:57 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 500 - 60.46ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Wed Feb 22 2023 12:33:55 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 403 - 89ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:34:43 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 33.38ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:40:15 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 95.98ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:41:35 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 87.55ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same project","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:42:18 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 185.39ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same team","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:43:20 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 85.27ms 78 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"users not in same team","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:44:48 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 100.4ms 78 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"project":{"id":9,"uuid":"1d84a9ee-f0fc-4f60-9e7b-ae54bee9f88c","createdAt":"2023-02-21T18:57:52.874Z","updatedAt":"2023-02-21T18:57:52.874Z","projectName":"test project","userId":5},"user":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"userId":5,"projectId":9,"id":13,"uuid":"2ebd9799-0b6c-4044-a88f-294634882223","createdAt":"2023-02-22T09:46:04.787Z","updatedAt":"2023-02-22T09:46:04.787Z","role":"member"}
+endDate: Wed Feb 22 2023 12:46:04 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 201 - 79.92ms 538 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Wed Feb 22 2023 12:47:10 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+PUT /api/teams/5 403 - 22.56ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Wed Feb 22 2023 12:47:13 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+PUT /api/teams/5 403 - 18.01ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already member in this team","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:47:28 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 406 - 42.41ms 96 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5},"photo":{"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:11:10.000Z","url":"82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg","userId":5}}
+endDate: Wed Feb 22 2023 12:48:27 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+GET /api/users 200 - 36.88ms 619 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Wed Feb 22 2023 12:49:43 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 403 - 57.87ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+endDate: Wed Feb 22 2023 12:49:45 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/teams 403 - 21.63ms 69 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"assignmentsFrom":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"assignmentsTo":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5},"photo":{"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:11:10.000Z","url":"82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg","userId":5}},"task":{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":
+endDate: Wed Feb 22 2023 12:50:17 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 201 - 83.67ms 1376 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"assignmentsFrom":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"assignmentsTo":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com","profile":{"id":13,"uuid":"6ec3ee76-e777-4c23-aaf6-3656d0cfbac4","createdAt":"2023-02-19T12:07:58.257Z","updatedAt":"2023-02-19T12:07:58.257Z","firstName":"mj","lastName":null,"gender":"female","phone":"","userId":5},"photo":{"id":9,"uuid":"3064661a-bd30-4a2b-9ce6-66c67dc85702","createdAt":"2023-02-19T12:10:07.823Z","updatedAt":"2023-02-19T12:11:10.000Z","url":"82c3c526-f52a-41db-b0b0-1477d6e4ef4d-ai-image-enlarger-1-after-2.jpg","userId":5}},"task":{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":
+endDate: Wed Feb 22 2023 12:51:39 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 201 - 129.45ms 1376 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already assigned for this task","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:58:56 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 54.46ms 99 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":406,"message":"this user is already assigned for this task","error":"Not Acceptable"}
+endDate: Wed Feb 22 2023 12:59:00 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 406 - 13.5ms 99 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"assignmentsFrom":{"id":5,"uuid":"3dc68ab7-f7fb-45df-871c-f1ab1e144a29","createdAt":"2023-02-19T12:01:56.534Z","updatedAt":"2023-02-19T12:07:09.000Z","username":"mjm","email":"maj@gmail.com"},"assignmentsTo":{"id":2,"uuid":"1f22fe85-d435-492f-90da-06206aed657b","createdAt":"2023-02-16T09:12:20.645Z","updatedAt":"2023-02-18T15:07:38.000Z","username":"maged","email":"maged.1992.me@gmail.com","profile":{"id":5,"uuid":"017c5249-4b32-4f12-83ae-984040707e84","createdAt":"2023-02-18T15:07:38.590Z","updatedAt":"2023-02-19T11:21:22.000Z","firstName":"maged","lastName":null,"gender":"male","phone":"","userId":2},"photo":null},"task":{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-21T18:58:50.611Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":null,"user":{"id":5,"username":"mjm","email":"maj@gmail.com"}},"assignmentsF
+endDate: Wed Feb 22 2023 12:59:49 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+POST /api/assignments 201 - 74.61ms 1172 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"Cannot POST /api/assignments/4","error":"Not Found"}
+endDate: Wed Feb 22 2023 14:05:25 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+POST /api/assignments/4 404 - 18.58ms 81 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 34.01ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 57.09ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 73.64ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"EntityPropertyNotFoundError: Property \"team\" was not found in \"Project\". Make sure your query is correct.\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3816:23\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3878:26\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3878:26\n    at Array.forEach (<anonymous>)\n    at SelectQueryBuilder.buildRelations (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3808:32)\n    at SelectQueryBuilder.applyFindOptions (D:\\mine\\task-management\\src\\query-builder\\SelectQueryBuilder.ts:3046:22)"}
+endDate: Wed Feb 22 2023 14:08:13 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/assignments/4 500 - 159.1ms 989 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 72.07ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 89.8ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":403,"message":"Forbidden"}
+endDate: Wed Feb 22 2023 14:14:12 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/assignments/4 403 - 102.38ms 40 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 80.34ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 130.44ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 80.74ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 24.14ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 16.92ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: mjm
+userId: 5
+DELETE /api/assignments/4 200 - 74.66ms undefined - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":400,"message":"this user is already unassigned for this task","error":"Bad Request"}
+endDate: Wed Feb 22 2023 14:19:10 GMT+0300 (Arabian Standard Time) 
+user: mjm
+userId: 5
+DELETE /api/assignments/4 400 - 109.85ms 98 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------

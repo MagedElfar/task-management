@@ -1,3 +1,4 @@
+import { Assignment } from 'src/assignments/assignments.entity';
 import { Project } from './../projects/project.entity';
 import { UsersPhotos } from './../users-photo/users-photo.entity';
 import { User } from './../users/user.entity';
@@ -21,7 +22,7 @@ export default () => ({
         username: process.env.DB_USERNAME,
         database: process.env.DB_NAME,
         password: process.env.DB_PASSWORD,
-        entities: [Task, User, Profile, UsersPhotos, Project, Team],
+        entities: [Task, User, Profile, UsersPhotos, Project, Team, Assignment],
         synchronize: true,
     }
 })

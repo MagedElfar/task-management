@@ -12,7 +12,7 @@ export class TeamsController {
         private teamsService: TeamsService
     ) { }
 
-    @Roles(MemberRole.ADMIN, MemberRole.Member)
+    @Roles(MemberRole.ADMIN)
     @UseGuards(RolesGuard)
     @Post()
     async add(@Req() req: any, @Body() teamDto: TeamDto) {
