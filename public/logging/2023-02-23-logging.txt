@@ -1,0 +1,871 @@
+
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:05:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 196.62ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:06:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 214.41ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:06:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 182.86ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:08:17 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 188.06ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:08:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 31.21ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 11:12:18 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 18.02ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:12:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 238.63ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 11:12:44 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 143.06ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:13:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 177.86ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:13:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 181.87ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:14:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 183.74ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:15:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 200.46ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"status":"done"}]}
+endDate: Thu Feb 23 2023 11:15:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 67.04ms 37 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"status":"done"}]}
+endDate: Thu Feb 23 2023 11:16:30 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 95.82ms 37 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:17:00 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 178ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:17:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 228.22ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:19:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 237.14ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"status":"done"},{"id":13,"status":"open"}]}
+endDate: Thu Feb 23 2023 11:27:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 82.31ms 63 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16}]}
+endDate: Thu Feb 23 2023 11:27:42 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 70.59ms 617 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}]}
+endDate: Thu Feb 23 2023 11:28:13 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 76.47ms 921 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}]}
+endDate: Thu Feb 23 2023 11:28:39 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 53.9ms 321 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 11:29:50 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 166.61ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 11:30:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 77.57ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 11:42:21 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 639.57ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 11:46:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 189.56ms 16 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 11:47:39 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 202.31ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 11:49:57 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 125.2ms 16 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 11:50:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 39.45ms 16 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 11:50:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 114.78ms 16 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16}],1]}
+endDate: Thu Feb 23 2023 11:50:34 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 37.73ms 311 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 11:57:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 120.85ms 925 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 11:57:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 69.53ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],1]}
+endDate: Thu Feb 23 2023 12:00:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 119.34ms 325 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:02:40 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 142.17ms 621 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:07:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 463.13ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:08:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 369.71ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:09:03 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 216.33ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 12:09:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?search=t 200 - 55.01ms 925 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:09:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 35.4ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 185.91ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:10:55 GMT+0300 (Arabian Standard Time) 
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],1]}
+endDate: Thu Feb 23 2023 12:15:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 217.4ms 342 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 12:15:14 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 17.22ms 663 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:16:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 171.1ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:17:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 185.35ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 12:18:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 64.18ms 663 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:18:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 171.76ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 12:19:14 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 247.14ms 52 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 12:19:49 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 70.59ms 663 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description
+endDate: Thu Feb 23 2023 12:24:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 89.84ms 1162 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 12:24:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 25.72ms 663 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:25:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 118.97ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 12:28:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 83.76ms 16 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:29:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 89.74ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:30:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 71.63ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 12:30:04 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 25.36ms 629 - PostmanRuntime/7.31.0 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 13:26:28 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 31.14ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 13:26:53 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 20.03ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 19:40:54 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 68.61ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:42:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 64.78ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:42:42 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 27.75ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],3]}
+endDate: Thu Feb 23 2023 19:43:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 61.19ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],3]}
+endDate: Thu Feb 23 2023 19:43:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 60.66ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],3]}
+endDate: Thu Feb 23 2023 19:43:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 55.94ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:44:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 68.24ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:45:20 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 69.35ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],3]}
+endDate: Thu Feb 23 2023 19:45:39 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 62.13ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:45:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 70.42ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:47:04 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 74.84ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:47:47 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 22.26ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:48:10 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=t 200 - 27.7ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:48:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=so 200 - 30.21ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:49:41 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=so 200 - 67.52ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:49:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=so 200 - 34.7ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 19:50:30 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=so 200 - 88.73ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:52:09 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open&search=so 200 - 72.67ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"open"},{"status":"done"},{"status":"open"}],3]}
+endDate: Thu Feb 23 2023 19:52:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 20.28ms 69 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 20:09:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 74.82ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"status":"done"},{"status":"open"}],2]}
+endDate: Thu Feb 23 2023 20:09:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 19.38ms 51 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 20:54:21 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET / 404 - 22.24ms 119 - Avast Antivirus ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"statusCode":404,"message":"ENOENT: no such file or directory, stat 'D:\\mine\\task-management\\uploads\\index.html'"}
+endDate: Thu Feb 23 2023 20:54:46 GMT+0300 (Arabian Standard Time) 
+request with no authorization required
+GET /requested.html 404 - 15.04ms 119 -  ::ffff:192.168.1.3
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 20:59:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 95.09ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 21:01:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 17.75ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 21:04:53 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 26.22ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 21:05:01 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 16.61ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 21:05:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 39.01ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],1]}
+endDate: Thu Feb 23 2023 21:05:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 75.32ms 336 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],1]}
+endDate: Thu Feb 23 2023 21:07:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 26.5ms 336 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 21:12:14 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 64.8ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:16:45 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 197.94ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:17:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 153.27ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:19:17 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 500 - 186.72ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 21:21:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 113.11ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 21:26:11 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 56.04ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 21:27:16 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 73.86ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:27:23 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=open 200 - 29.93ms 615 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:27:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 19.64ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:42:07 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 159.1ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:42:09 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 26.97ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:43:40 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 74.03ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:44:21 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 198.91ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:44:54 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 173.55ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:45:18 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 68.28ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:50:32 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 24ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:50:33 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 17.49ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:51:14 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 18.13ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:52:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 86.45ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 21:53:04 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 307.52ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:54:08 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 79.55ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 21:54:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 68.5ms 621 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 21:57:18 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 66.11ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16}],1]}
+endDate: Thu Feb 23 2023 21:57:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 27.54ms 311 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":14,"uuid":"b88b8b94-1f07-408e-85f9-ce1af9f1dfa8","createdAt":"2023-02-22T11:43:21.437Z","updatedAt":"2023-02-22T17:31:49.460Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-22T12:40:37.000Z","userId":5,"projectId":9,"parentId":16},{"id":15,"uuid":"bacc0bfe-f528-423a-a395-70476b3787ed","createdAt":"2023-02-22T11:44:34.496Z","updatedAt":"2023-02-22T11:44:34.496Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-22T12:40:37.000Z","userId":5,"projectId":9,"parentId":13},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","update
+endDate: Thu Feb 23 2023 21:58:35 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 87.23ms 1517 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16}],1]}
+endDate: Thu Feb 23 2023 21:59:22 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 62.63ms 311 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16}],1]}
+endDate: Thu Feb 23 2023 22:08:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 23.27ms 311 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:08:47 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 96.68ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:08:58 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 76.84ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:11:34 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 28.01ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:11:46 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?search=so 200 - 23.61ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:12:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?search=so 200 - 18.62ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 22:13:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?search=so 200 - 74.82ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:13:29 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 37.21ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 22:13:35 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 19.16ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 22:14:29 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 60.88ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 22:14:56 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 22.77ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],2]}
+endDate: Thu Feb 23 2023 22:15:24 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 18.76ms 629 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]}],1]}
+endDate: Thu Feb 23 2023 22:27:03 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 92.42ms 514 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]}],1]}
+endDate: Thu Feb 23 2023 22:27:15 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 16.06ms 514 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description
+endDate: Thu Feb 23 2023 22:27:43 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 83.52ms 1162 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description
+endDate: Thu Feb 23 2023 22:29:26 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 22.47ms 1162 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 22:30:52 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 75ms 663 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[],0]}
+endDate: Thu Feb 23 2023 22:31:19 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 89.42ms 16 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description
+endDate: Thu Feb 23 2023 22:31:39 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 69.56ms 1162 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description":"please solve this issue","status":"open","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null}],3]}
+endDate: Thu Feb 23 2023 22:32:03 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 70.27ms 925 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description
+endDate: Thu Feb 23 2023 22:32:31 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 69.33ms 1162 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 22:32:36 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 24.53ms 841 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 22:33:05 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 78.24ms 841 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 22:33:10 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 17.95ms 841 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}],2]}
+endDate: Thu Feb 23 2023 22:33:28 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 20ms 841 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 22:35:18 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 160.73ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 22:35:39 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 202.77ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 22:36:25 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 28.14ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 22:36:27 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 55.4ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]}]}
+endDate: Thu Feb 23 2023 22:37:37 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 200 - 99.34ms 338 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description"
+endDate: Thu Feb 23 2023 22:37:44 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 16.99ms 1158 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"tasks":[{"id":13,"uuid":"53a40a8d-ea03-4b8f-be01-7f97589b5c37","createdAt":"2023-02-21T18:58:50.611Z","updatedAt":"2023-02-22T17:49:56.018Z","title":"test 3","description":"task 3 description","status":"open","priority":"low","duo_date":"2023-02-21T21:00:00.000Z","userId":5,"projectId":9,"parentId":16,"assignments":[{"id":7,"uuid":"71ac0d7e-395f-4d89-9392-07f1430f289e","createdAt":"2023-02-22T17:28:17.277Z","updatedAt":"2023-02-22T17:28:17.277Z","taskId":13,"assignmentsToId":2,"assignmentsFromId":2}]},{"id":16,"uuid":"be3a084a-b7d1-4332-9d20-45b1271fe930","createdAt":"2023-02-22T14:07:48.151Z","updatedAt":"2023-02-22T17:12:12.000Z","title":"solve problem","description":"please solve this issue","status":"done","priority":"low","duo_date":"2023-02-22T17:40:37.000Z","userId":2,"projectId":9,"parentId":null,"assignments":[]},{"id":17,"uuid":"0d460d47-c59c-4dcd-bcf5-a25a168846b6","createdAt":"2023-02-22T16:08:36.062Z","updatedAt":"2023-02-22T17:19:09.000Z","title":"task 11","description"
+endDate: Thu Feb 23 2023 22:38:54 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks 200 - 77.27ms 1158 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------
+exit: {"statusCode":500,"message":"Internal server error"}
+endDate: Thu Feb 23 2023 22:39:04 GMT+0300 (Arabian Standard Time) 
+user: maged
+userId: 2
+GET /api/tasks/my-tasks?status=done 500 - 116.46ms 52 - PostmanRuntime/7.31.1 ::1
+----------------------------------------------------------------------------

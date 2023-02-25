@@ -1,5 +1,5 @@
 import { Transform } from "class-transformer";
-import { IsIn, IsNumberString, IsOptional } from "class-validator";
+import { IsIn, IsNumberString, IsOptional, IsString } from "class-validator";
 import { TaskStatus } from "../tasks.model";
 
 export class FilterTaskDto {
@@ -9,7 +9,8 @@ export class FilterTaskDto {
     @IsIn([TaskStatus.DONE, TaskStatus.OPEN, TaskStatus.IN_PROGRESS])
     status: TaskStatus;
 
-
+    @IsOptional()
+    @IsString()
     search: string;
 
     @IsOptional()

@@ -44,7 +44,7 @@ export class AssignmentsService {
 
         try {
             const { taskId, assignmentsToId } = assignDto
-            const task = await this.tasksService.findOne({ id: taskId });
+            const task = await this.tasksService.findOne({ id: taskId }, user);
 
             if (await this.findOne({ taskId, assignmentsToId })) throw new NotAcceptableException("this user is already assigned for this task")
 

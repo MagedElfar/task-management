@@ -34,13 +34,37 @@ export class ProjectsService {
     }
 
 
+
+
     async getSpecificProject(user: User, projectId: number) {
         try {
             const project = await this.projectRepository.createQueryBuilder("p")
-                .leftJoin("p.teams", "t")
+                .leftJoinAndSelect("p.teams", "t")
+                .leftJoinAndSelect("p.tasks", "ts")
                 .where("p.id = :projectId", { projectId })
                 .andWhere("t.userId = :userId", { userId: user.id })
                 .andWhere("t.projectId = :projectId", { projectId })
+                .getOne()
+
+
+            if (!project) throw new ForbiddenException();
+
+            return project;
+        } catch (error) {
+            this.logger.error(error.stack)
+            throw new HttpException(error?.response || error.stack, error?.status || 500)
+        }
+    }
+
+    async getSingleProject(user: User, projectId: number) {
+        try {
+            const project = await this.projectRepository.createQueryBuilder("p")
+                .leftJoinAndSelect("p.teams", "t")
+                .leftJoinAndSelect("p.tasks", "ts")
+                .where("p.id = :projectId", { projectId })
+                .andWhere("t.userId = :userId", { userId: user.id })
+                .andWhere("t.projectId = :projectId", { projectId })
+                .andWhere("ts.parentId IS NULL")
                 .getOne()
 
 

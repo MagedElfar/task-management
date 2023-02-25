@@ -1,3 +1,5 @@
+import { join } from 'path';
+import { UpdateStatusDto } from './dto/updated.statua.dto';
 import { ProjectsService } from './../projects/projects.service';
 import { Task } from './task.entity';
 import { FilterTaskDto } from './dto/filter-task.dto';
@@ -5,8 +7,9 @@ import { CreateTaskDto } from './dto/create-task.dto';
 import { ForbiddenException, HttpException, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { UpdateTaskDto } from './dto/update-task.dto';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Brackets, Repository, SelectQueryBuilder } from 'typeorm';
 import { User } from 'src/users/user.entity';
+import { Team } from 'src/teams/team.entity';
 
 @Injectable()
 export class TasksService {
@@ -21,36 +24,61 @@ export class TasksService {
     ) { }
 
 
+    private queryFilter(query: SelectQueryBuilder<Task>, filterTaskDto: FilterTaskDto): SelectQueryBuilder<Task> {
+        const { page = 1, limit = 10, search, status } = filterTaskDto;
+
+        const offset = (+page - 1) * +limit;
+
+        if (status) {
+            query.andWhere("task.status = :status", { status })
+        }
+
+        if (search) {
+            query.andWhere("task.title  like :search", { search: `%${search}%` })
+        }
+
+        query.limit(+limit)
+            .offset(offset)
+
+
+        return query
+    }
+
+    async getUserTasks(user: User, filterTaskDto: FilterTaskDto) {
+        let query = this.taskRepository.createQueryBuilder("task")
+            .leftJoin("task.assignments", "ta")
+            .where(qp => {
+                qp.where("ta.assignmentsTo = :user", { user: user.id })
+                if (Object.keys(filterTaskDto).length > 0) {
+                    this.queryFilter(qp, filterTaskDto)
+                }
+            })
+            .orWhere("task.userId = :user", { user: user.id })
+        if (Object.keys(filterTaskDto).length > 0) {
+            this.queryFilter(query, filterTaskDto)
+        }
+
+        const tasks = await query.getManyAndCount()
+
+        return {
+            tasks: tasks[0],
+            count: tasks[1]
+        }
+    }
+
+
     async findAll(filterTaskDto: FilterTaskDto): Promise<{
         tasks: Task[],
         count: number
     }> {
 
         try {
-            const { page = 1, limit = 10, search, status, user } = filterTaskDto;
-
-            const offset = (+page - 1) * +limit;
-
             const query = this.taskRepository.createQueryBuilder("task");
 
-            if (status) {
-                query.orWhere("task.status = :status", { status })
-            }
-
-            if (search) {
-                query.orWhere("task.title like :search or task.description like :search", { search: `%${search}%` })
-
-            }
-
-            if (user) {
-                query.orWhere("task.userId = :user", { user })
-            }
 
             const tasksAndCount = await query
                 .select(["task", "user.id", "user.username", "user.email"])
                 .leftJoin("task.user", "user")
-                .limit(+limit)
-                .offset(offset)
                 .getManyAndCount();
 
             return {
@@ -66,7 +94,7 @@ export class TasksService {
     }
 
 
-    async findOne(data: Partial<Task>): Promise<Task> {
+    async findOne(data: Partial<Task>, user: User): Promise<Task> {
 
         try {
             const query = this.taskRepository.createQueryBuilder("task")
@@ -77,13 +105,33 @@ export class TasksService {
             })
 
             const task = await query
-                .leftJoin("task.user", "user")
-                .select(["task", "user.id", "user.username", "user.email"])
+                .leftJoinAndSelect("task.user", "user")
+                .leftJoinAndSelect("user.photo", "photo")
+                .leftJoinAndSelect("task.subTasks", "subTasks")
+                .leftJoinAndSelect("task.project", "project")
+                .leftJoinAndSelect("project.teams", "teams")
+                .leftJoinAndSelect("task.assignments", "assignments")
+                .leftJoinAndSelect("assignments.assignmentsTo", "assignTo")
+                .leftJoinAndSelect("assignTo.photo", "assignToPhoto")
                 .getOne();
 
+            console.log("task = ", data)
+
             if (!task) {
+                throw new NotFoundException()
+            }
+
+
+            delete task.user.password
+
+            if (
+                task.userId !== user.id &&
+                !task.project?.teams.some((member: Team) => member.userId === user.id)
+
+            ) {
                 throw new ForbiddenException()
             }
+
 
             return task
         } catch (error) {
@@ -103,9 +151,6 @@ export class TasksService {
 
             const project = await this.projectsService.getSpecificProject(user, projectId);
 
-
-            console.log(project);
-
             const task = this.taskRepository.create({
                 project,
                 user,
@@ -121,6 +166,31 @@ export class TasksService {
 
     }
 
+    async createSubTask(user: User, createTaskDto: CreateTaskDto) {
+        try {
+            const { projectId, ...others } = createTaskDto;
+
+            const parent = await this.findOne({ id: createTaskDto.parentId }, user)
+
+            const project = await this.projectsService.getSpecificProject(user, projectId);
+
+
+            console.log(project);
+
+            const task = this.taskRepository.create({
+                parent,
+                project,
+                user,
+                ...others
+            })
+
+            return await this.taskRepository.save(task)
+        } catch (error) {
+            this.logger.error(error.stack)
+            throw new HttpException(error?.response || error.stack, error?.status || 500)
+        }
+    }
+
 
 
     async update(user: User, id: number, updateTaskDto: UpdateTaskDto): Promise<Task> {
@@ -128,11 +198,29 @@ export class TasksService {
             let task = await this.findOne({
                 id,
                 userId: user.id
-            })
+            }, user)
 
             return await this.taskRepository.save({
                 ...task,
                 ...updateTaskDto
+            })
+        } catch (error) {
+            this.logger.error(error.stack)
+            throw new HttpException(error?.response || error.stack, error?.status || 500)
+        }
+
+
+    }
+
+    async updateStatues(user: User, id: number, updateStatusDto: UpdateStatusDto): Promise<Task> {
+        try {
+            let task = await this.findOne({
+                id,
+            }, user)
+
+            return await this.taskRepository.save({
+                ...task,
+                ...updateStatusDto
             })
         } catch (error) {
             this.logger.error(error.stack)
@@ -148,7 +236,7 @@ export class TasksService {
             await this.findOne({
                 id,
                 userId: user.id
-            })
+            }, user)
 
             const result = await this.taskRepository.delete(id);
 

@@ -11,6 +11,13 @@ export class ProjectsController {
         return await this.projectsService.getUserProjects(req.user)
     }
 
+    @Get("/:id")
+    async getProject(@Req() req: any, @Param("id", new ParseIntPipe({
+        errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE
+    })) id: number) {
+        return await this.projectsService.getSingleProject(req.user, id)
+    }
+
     @Post()
     async create(@Req() req: any, @Body() createProjectDto: CreateProjectDto) {
         return await this.projectsService.create(req.user, createProjectDto)

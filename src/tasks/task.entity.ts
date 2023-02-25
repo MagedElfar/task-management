@@ -70,7 +70,6 @@ export class Task extends AbstractEntity {
     subTasks: Task[]
 
     @OneToMany(() => Assignment, (assignment) => assignment.task, {
-        cascade: true
     })
     assignments: Assignment[]
 
